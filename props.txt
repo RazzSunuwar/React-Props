@@ -16,3 +16,6 @@ React Props are like function arguments in JavaScript and attributes in HTML.
 
 Pass Data
 Props are also how you pass data from one component to another, as parameters.
+
+If you have a variable to send, and not a string as in the exmaple, you just put the variable
+name inside curly brackets.
