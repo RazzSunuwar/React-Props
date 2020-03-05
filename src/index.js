@@ -7,8 +7,17 @@ class Car extends React.Component{
     }
 }
 
-const myelment = <Car brand = "Buggati" />;
+class Garage extends React.Component{
+    render(){
+        return(
+            <div>
+                <h1>Who lives in my Garage? </h1>
+                <Car brand='Buggati' />
+            </div>
+        )
+    }
+}
 
 
-ReactDOM.render(myelment, document.getElementById('root'));
+ReactDOM.render(<Garage />, document.getElementById('root'));
 
