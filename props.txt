@@ -1,0 +1,14 @@
+React Props
+
+Props are arguments passed into React components.
+Props are passed to components via HTML attributes.
+
+React Props are like function arguments in JavaScript and attributes in HTML.
+
+
+// Example
+// Add a "brand" attribute to the Car element:
+
+// const myelement = <Car brand = "Ford" />;
+
+// The component receives the arguments as a props object:
